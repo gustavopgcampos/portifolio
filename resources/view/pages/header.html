@@ -1,0 +1,58 @@
+<style>
+  .fancy-link {
+    background-image: linear-gradient(
+      to right,
+      #34384f,
+      #34384f 50%,
+      #000 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .fancy-link::before {
+    content: '';
+    background: #34384f;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .fancy-link:hover {
+    background-position: 0;
+  }
+
+  .fancy-link:hover::before {
+    width: 100%;
+  }
+</style>
+
+<section class="text-dark bg-white p-5 text-center my-3">
+  <div class="container">
+    <h1 class="display-4">Gustavo Pereira Goncalves de Campos</h1>
+    <p class="lead">Estudante de Análise e Desenvolvimento de sistemas no IFSP Campus Campinas</p>
+  </div>
+</section>
+
+
+<div class="jumbotron bg-white p-3 my-3">    
+    
+    <div class="d-flex justify-content-center align-items-center">
+        <a href="#" class="btn btn-link btn-lg mr-3 fancy-link">Home</a>
+        <a href="#" class="btn btn-link btn-lg mr-3 fancy-link">Sobre Mim</a>
+        <a href="#" class="btn btn-link btn-lg mr-3 fancy-link">Projetos</a>
+        <a href="#" class="btn btn-link btn-lg mr-3 fancy-link">Links Úteis</a>
+    </div>
+    
+</div>
+
