@@ -5,12 +5,14 @@
         <group>
             <file>file:/C:/Dev/Netbeans/Projects/mvcestrutural/index.php</file>
             <file>file:/C:/Dev/Netbeans/Projects/mvcestrutural/app/Utils/View.php</file>
-            <file>file:/C:/Dev/Netbeans/Projects/mvcestrutural/resources/view/pages/home.html</file>
-            <file>file:/C:/Dev/Netbeans/Projects/mvcestrutural/resources/view/pages/page.html</file>
             <file>file:/C:/Dev/Netbeans/Projects/mvcestrutural/app/Controller/Pages/Page.php</file>
-            <file>file:/C:/Dev/Netbeans/Projects/mvcestrutural/app/Controller/Pages/Home.php</file>
-            <file>file:/C:/Dev/Netbeans/Projects/mvcestrutural/resources/view/pages/header.html</file>
-            <file>file:/C:/Dev/Netbeans/Projects/mvcestrutural/resources/view/pages/footer.html</file>
+            <file>file:/C:/Dev/Netbeans/Projects/mvcestrutural/resources/view/pages/home.html</file>
+            <file>file:/C:/Dev/Netbeans/Projects/mvcestrutural/app/Http/Request.php</file>
+            <file>file:/C:/Dev/Netbeans/Projects/mvcestrutural/app/Http/Response.php</file>
+            <file>file:/C:/Dev/Netbeans/Projects/mvcestrutural/app/Http/Router.php</file>
+            <file>file:/C:/Dev/Netbeans/Projects/mvcestrutural/routes/pages.php</file>
+            <file>file:/C:/Dev/Netbeans/Projects/mvcestrutural/app/Controller/Pages/About.php</file>
+            <file>file:/C:/Dev/Netbeans/Projects/mvcestrutural/resources/view/pages/about.html</file>
         </group>
     </open-files>
 </project-private>
