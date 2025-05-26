@@ -5,7 +5,7 @@ require __DIR__.'/vendor/autoload.php';
 use \App\Http\Router;
 use \App\Utils\View;
 
-define('URL', 'http://mvcestrutural.dev.local');
+define('URL', 'https://gustavopgcampos.github.io/portifolio/');
 
 // define valor padrão para as variáveis
 View::init([
