@@ -9,8 +9,12 @@ class Home extends Page
     
     public static function getHome()
     {
+        $about = View::render('pages/about');
+        $projects = View::render('pages/projects');
+        
         $content = View::render('pages/home', [
-            'name'=>'teste'
+            'about' => $about, 
+            'projects'=> $projects
         ]);
         
         return parent::getPage('Gustavo Pereira - Portifollio', $content);
