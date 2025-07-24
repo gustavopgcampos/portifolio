@@ -1,4 +1,11 @@
 
+# Portifólio Gustavo Pereira
+
+Portifólio feito utilizando PHP, HTML e CSS. Baseado na arquitetura MVC e contendo métodos HTTP para obtenção de caminhos para a aplicação.
+
+
+
+
 ## Visualização do portifólio
 
 Antes de tudo é necessário ter o PHP instalado em sua máquina, entre no caminho onde está o arquivo e rode o seguinte comando abaixo: 
